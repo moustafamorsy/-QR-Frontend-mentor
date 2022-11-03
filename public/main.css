@@ -1,9 +1,9 @@
-/*!******************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/styles/input.css ***!
-  \******************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap);
 /*
 ! tailwindcss v3.2.1 | MIT License | https://tailwindcss.com
-*//*
+*/
+
+/*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
 */
@@ -340,6 +340,7 @@ button,
 /*
 Make sure disabled buttons don't get the pointer cursor.
 */
+
 :disabled {
   cursor: default;
 }
@@ -373,11 +374,12 @@ video {
 }
 
 /* Make elements with the HTML hidden attribute stay hidden by default */
+
 [hidden] {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -424,7 +426,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -470,31 +472,83 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-.mx-auto {
+.mx-auto{
   margin-left: auto;
   margin-right: auto;
 }
-.mt-10 {
-  margin-top: 2.5rem;
+.my-5{
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
-.w-1\/2 {
-  width: 50%;
+.mt-5{
+  margin-top: 1.25rem;
 }
-.rounded {
-  border-radius: 0.25rem;
+.flex{
+  display: flex;
 }
-.border {
+.h-screen{
+  height: 100vh;
+}
+.w-72{
+  width: 18rem;
+}
+.w-fit{
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.items-center{
+  align-items: center;
+}
+.justify-center{
+  justify-content: center;
+}
+.overflow-hidden{
+  overflow: hidden;
+}
+.rounded-xl{
+  border-radius: 0.75rem;
+}
+.border{
   border-width: 1px;
 }
-.p-6 {
-  padding: 1.5rem;
+.bg-Lightgray{
+  --tw-bg-opacity: 1;
+  background-color: hsla(212, 45%, 89%, var(--tw-bg-opacity));
 }
-.text-center {
+.bg-White{
+  --tw-bg-opacity: 1;
+  background-color: hsla(0, 0%, 100%, var(--tw-bg-opacity));
+}
+.p-3{
+  padding: 0.75rem;
+}
+.text-center{
   text-align: center;
 }
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.font-custom{
+  font-family: Outfit, sans-serif;
+}
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.text-paragraph{
+  font-size: 15px;
+}
+.font-bold{
+  font-weight: 700;
+}
+.text-DarkBlue{
+  --tw-text-opacity: 1;
+  color: hsla(218, 44%, 22%, var(--tw-text-opacity));
+}
+.text-Grayishblue{
+  --tw-text-opacity: 1;
+  color: hsla(220, 15%, 55%, var(--tw-text-opacity));
+}
+.drop-shadow-xl{
+  --tw-drop-shadow: drop-shadow(0 20px 13px rgba(0, 0, 0, 0.03)) drop-shadow(0 8px 5px rgba(0, 0, 0, 0.08));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 
